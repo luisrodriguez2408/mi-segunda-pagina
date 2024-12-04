@@ -1,0 +1,96 @@
+/*estilo generales*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 50px;
+    font-family:cursive;
+    background-color: rgb(226, 226, 241);
+
+}
+hr{
+    margin: 15px 0;
+}
+/* estilo del menu*/
+.menu-nav{
+height: 60px;
+display: flex;
+align-items: center;
+}
+.logo{
+    max-width: 50px;
+}
+.menu{
+    display: flex;
+    list-style: none;
+    margin: 0 20px;
+    gap: 20px;
+}
+.logo{
+    border-radius: 50px;
+    border-color: rgb(219, 81, 162) ;
+    box-shadow: 10px;
+}
+.btn-menu{
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+    padding: 5px;
+}
+.activo{
+    border: 2px solid;
+    border-radius: 2px;
+    background-color:#188cd6;
+    color: white;
+
+}
+/*estilos del pie*/
+.pie{
+    background-color: #188cd6;
+    color: white;
+    border: 1px solid;
+    border-radius: ;text-align: center;
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+.btn-menu:hover{
+    color: #188cd6;
+}
+.activo:hover{
+    color: #111;
+}
+/*Estilo del contenido PG-Inicio*/
+.contenido{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.publicidad{
+    display: flex;
+    align-content: center;
+    margin-bottom: 30px;
+}
+.publicidad img{
+    max-height: min-content;
+}
+.bandeja{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+.tarjeta{
+    border: 2px solid #555;
+    border-radius: 8px;
+    padding: 20px;
+}
+.tarjeta h3 {
+    color: #999;
+}
+.tarjeta a {
+    color:blue ;
+    text-decoration: none;
+}
