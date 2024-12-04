@@ -75,7 +75,10 @@ align-items: center;
     margin-bottom: 30px;
 }
 .publicidad img{
-    max-height: min-content;
+    display: block;
+    margin: 0 auto;
+    max-width: 100%;
+    width: 80%;
 }
 .bandeja{
     display: grid;
