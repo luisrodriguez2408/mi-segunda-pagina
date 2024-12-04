@@ -52,10 +52,10 @@ align-items: center;
     background-color: #188cd6;
     color: white;
     border: 1px solid;
-    border-radius: ;text-align: center;
+    border-radius: 5px;
     text-align: center;
     font-weight: bold;
-    padding: 10px;
+    padding: 10px 0;
 }
 .btn-menu:hover{
     color: #188cd6;
