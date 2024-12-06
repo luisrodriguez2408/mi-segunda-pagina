@@ -113,11 +113,37 @@ align-items: center;
 .video{
     width: 300px;
     height: 300px;
+    padding-block:initial;
 
 }
 .bandejaVideo{
     display: grid;
     grid-template-columns: 1fr 1fr ;    
     gap: 10px;
+}
+.contenedor-noticias {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
 
+}
+
+.noticia {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 10px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    border: 1px solid #ddd;
+
+}
+
+.columna{
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1PX solid rgb(100, 138, 128);
+    border-collapse: collapse;
+    
 }
