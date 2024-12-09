@@ -30,43 +30,37 @@
             <br>
             <br>
             <label for="Nom">nombre </label>
-            <input type="text" name="Nom" id="Nom" value="" placeholder="Nombre completo">
+            <input type="text" name="Nom" id="Nom" value="" placeholder="Nombre completo" required>
             <br>
             <br>
             <label for="ema">Correo Electr&oacute;nico: </label>
-            <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com">
+            <input type="email" name="ema" id="ema" value="" placeholder="nombre@dominio.com" required>
             <br>
             <br>
             <label for="clave">Contraseña:</label>
-            <input type="password" name="clave" id="clave" value="" required minlength="8" maxlength="16">
+            <input type="password" name="clave" id="clave" value="" required minlength="8" maxlength="16" >
             <hr>
             <span>Genero</span>
             <br>
             <br>
             <div class="genero">
-                <label for="m">Masculino</label>
+                <label for="m">Masculino</label required>
                 <input type="radio" name="gen" id="m">
             </div>
             <div class="genero">
-                <label for="f">Femenino</label>
+                <label for="f">Femenino</label required>
                 <input type="radio" name="gen" id="f">
             </div>
             <div class="genero">
                 <label for="o">Otros</label>
                 <input type="radio" name="gen" id="o">
             </div>
+            <input type="submit" value="enviar" >
+        <input type="reset" value="cancelar" >
 
         </form>
     </section>
-    <section>
-        <h3>
-
-        </h3>
-
-        
-        <input type="submit" value="enviar">
-        <input type="reset" value="cancelar">
-    </section>
+    
 
     <footer>
         <hr>
